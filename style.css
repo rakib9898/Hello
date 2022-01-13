@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {}
+
+/*main code start*/
+.wrapper-full {
+    width: 100%;
+
+}
+
+.wrapper {
+    width: 1170px;
+
+    margin: 0 auto;
+}
+
+/*Header code start*/
+.header-full {
+    background-color: black;
+}
+
+.header {
+    height: 40px;
+    line-height: 40px;
+
+}
+
+.header p {
+    float: left;
+    height: 40px;
+    padding-right: 700px;
+}
+
+.header > ul {
+    overflow: hidden;
+}
+
+.header > ul > li {
+    float: left;
+}
+
+.header > ul > li > a {
+    color: black;
+}
+
+.header > ul > li > a:hover {
+    color: greenyellow;
+}
+
+/*navber code start*/
+.navbar-full {
+    background-color: silver;
+  
+}
+.navbar {
+   
+    height: 60px;
+    line-height: 60px;
+    
+}
+
+.navbar > ul {
+     
+    
+    overflow: hidden;
+}
+
+.navbar > ul > li {
+    float: left;
+    margin-right: 80px;
+}
+
+.navbar > ul > li > a {
+    color: black;
+    display: block;
+    padding: 0px, 35px;
+    text-transform: uppercase;
+    transition: all linear 0.5s;
+}
+
+.navbar > ul > li > a:hover {
+    color: lightyellow;
+    background-color: greenyellow;
+}
+
+/* dropdown menu*/
+.navbar > ul > li > ul {
+    position: absolute;
+    display: none;
+}
+
+.navbar > ul > li:hover > ul {
+    display: block;
+    background-color: gainsboro;
+}
+
+.navbar > ul > li > ul > li {}
+
+.navbar > ul > li > ul > li > a {
+    display: block;
+    padding: 3px 100px 3px 30px;
+    line-height: 40px;
+    border-bottom: 1px solid blue;
+}
+
+.navbar > ul > li > ul > li > a:hover {
+    color: white;
+}
+
+/*banner code start*/
+.banner-full {
+    background-image: url(../images/moana%20kutta%20slim.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.banner {
+    height: 430px;
+}
+
+/*content code start*/
+content-full {}
+
+.content {
+    padding: 10px 0px;
+}
+
+.content h2 {
+    text-transform: uppercase;
+    border-bottom: 3px solid lightblue;
+}
+
+.content p {
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.content .position {
+    text-align: center;
+}
+
+.content .position img {
+    opacity: 0.5;
+}
+
+.content .position img:hover {
+    opacity: 1.0;
+}
+
+/*footer code start*/
+.footer-full {
+    background-color: black;
+}
+
+.footer {
+    text-decoration-color: aliceblue;
+    height: 40px;
+    line-height: 40px;
+
+}
+
+.footer p {
+
+    float: left;
+}
+
+.footer .right {
+    padding-left: 800px;
+}
